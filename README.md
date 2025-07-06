@@ -2,56 +2,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VA-DesignGenie-Bert | Portfolio</title>
+  <title>VA-DesignGenie-Bert | Home</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfcfa;
       color: #333;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background: #004aad;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    header {
       text-align: center;
-      padding: 50px;
+      padding: 80px 20px 40px;
     }
+
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-      color: #222;
+      font-size: 2.8em;
+      animation: fadeIn 1.5s ease;
     }
-    p {
-      font-size: 1.1em;
-      margin-bottom: 30px;
-    }
+
     .skills {
-      max-width: 400px;
+      max-width: 600px;
       margin: 0 auto;
       text-align: left;
+      padding: 20px;
     }
-    .skills h2 {
-      color: #444;
-      font-size: 1.5em;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 5px;
-    }
+
     .skills ul {
       list-style: none;
       padding: 0;
     }
+
     .skills li {
-      background: #e3e3e3;
+      background: #e0ecff;
       margin: 8px 0;
       padding: 10px 15px;
       border-radius: 6px;
+      transition: transform 0.3s;
     }
+
+    .skills li:hover {
+      transform: scale(1.03);
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
     footer {
-      margin-top: 50px;
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
       font-size: 0.9em;
-      color: #999;
     }
   </style>
 </head>
 <body>
 
-  <h1>VA-DesignGenie-Bert</h1>
-  <p>Graphic Designer for over 8 years.</p>
+  <nav>
+    <div>VA-DesignGenie-Bert</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="videos.html">Videos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Hello, I'm VA-DesignGenie-Bert</h1>
+    <p>Graphic Designer for over 8 years.</p>
+  </header>
 
   <div class="skills">
     <h2>Skills</h2>
@@ -63,9 +102,8 @@
   </div>
 
   <footer>
-    <p>Portfolio powered by GitHub Pages</p>
+    <p>© 2025 VA-DesignGenie-Bert | Portfolio</p>
   </footer>
 
 </body>
 </html>
-# VA-DesignGenie-Bert-github.io
