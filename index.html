@@ -2,110 +2,131 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VA-DesignGenie-Bert | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VA-DesignGenie-Bert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #fdfcfa;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
       color: #333;
       scroll-behavior: smooth;
     }
 
-    nav {
-      background: #004aad;
-      color: white;
-      padding: 15px 30px;
+    header {
+      padding: 20px 40px;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
     }
 
     nav a {
-      color: white;
+      margin-left: 20px;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
     }
 
-    header {
+    nav a:hover {
+      color: #007bff;
+    }
+
+    .hero {
       text-align: center;
-      padding: 80px 20px 40px;
+      padding: 100px 20px 60px;
     }
 
-    h1 {
-      font-size: 2.8em;
-      animation: fadeIn 1.5s ease;
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      font-weight: 300;
     }
 
     .skills {
-      max-width: 600px;
-      margin: 0 auto;
-      text-align: left;
-      padding: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      flex-wrap: wrap;
     }
 
-    .skills ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .skills li {
-      background: #e0ecff;
-      margin: 8px 0;
-      padding: 10px 15px;
-      border-radius: 6px;
+    .skill-card {
+      background: #f7f7f7;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
       transition: transform 0.3s;
+      min-width: 200px;
+      text-align: center;
     }
 
-    .skills li:hover {
-      transform: scale(1.03);
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(-20px); }
-      100% { opacity: 1; transform: translateY(0); }
+    .skill-card:hover {
+      transform: translateY(-5px);
     }
 
     footer {
       text-align: center;
-      margin-top: 40px;
-      color: #aaa;
-      font-size: 0.9em;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    /* Simple fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div>VA-DesignGenie-Bert</div>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="videos.html">Videos</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
-
   <header>
-    <h1>Hello, I'm VA-DesignGenie-Bert</h1>
-    <p style="font-size: 1.5rem; font-weight: bold; margin-top: 10px;">
-  Graphic Designer for over 8 years.
-</p>
+    <h1>VA-DesignGenie-Bert</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <div class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Adobe Photoshop Pro</li>
-      <li>Shopify Support Specialist</li>
-      <li>Admin Ninja</li>
-    </ul>
-  </div>
+  <section class="hero fade-in" id="home">
+    <h2>Graphic Designer for over 8 years</h2>
+    <p>Creative, detail-oriented, and passionate about clean design and user experience.</p>
+  </section>
+
+  <section class="skills fade-in" id="skills">
+    <div class="skill-card">Adobe Photoshop Pro</div>
+    <div class="skill-card">Shopify Support Specialist</div>
+    <div class="skill-card">Admin Ninja</div>
+  </section>
 
   <footer>
-    <p>© 2025 VA-DesignGenie-Bert | Portfolio</p>
+    © 2025 VA-DesignGenie-Bert. All rights reserved.
   </footer>
 
 </body>
