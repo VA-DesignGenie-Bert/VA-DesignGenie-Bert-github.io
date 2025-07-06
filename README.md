@@ -1,109 +1,23 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VA-DesignGenie-Bert | Home</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fdfcfa;
-      color: #333;
-      scroll-behavior: smooth;
-    }
+# VA-DesignGenie-Bert Portfolio
 
-    nav {
-      background: #004aad;
-      color: white;
-      padding: 15px 30px;
-      display: flex;
-      justify-content: space-between;
-    }
+Welcome to my personal design portfolio website, built using GitHub Pages.
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
-    }
+## 👩‍🎨 About Me
+I’m a Graphic Designer with over 8 years of experience. I specialize in:
+- Adobe Photoshop
+- Shopify store support
+- Admin tasks and creative assets
 
-    header {
-      text-align: center;
-      padding: 80px 20px 40px;
-    }
+## 🌐 Live Website
+👉 Visit the live site here: [https://va-designgenie-bert.github.io](https://va-designgenie-bert.github.io)
 
-    h1 {
-      font-size: 2.8em;
-      animation: fadeIn 1.5s ease;
-    }
+## 📁 Repo Structure
+This site is built using simple HTML/CSS:
+- `index.html` – Homepage
+- `about.html` – About Me
+- `contact.html` – Contact Info
+- `videos.html` – Projects or Video Showcase (coming soon)
 
-    .skills {
-      max-width: 600px;
-      margin: 0 auto;
-      text-align: left;
-      padding: 20px;
-    }
-
-    .skills ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .skills li {
-      background: #e0ecff;
-      margin: 8px 0;
-      padding: 10px 15px;
-      border-radius: 6px;
-      transition: transform 0.3s;
-    }
-
-    .skills li:hover {
-      transform: scale(1.03);
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(-20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      color: #aaa;
-      font-size: 0.9em;
-    }
-  </style>
-</head>
-<body>
-
-  <nav>
-    <div>VA-DesignGenie-Bert</div>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="videos.html">Videos</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
-
-  <header>
-    <h1>Hello, I'm VA-DesignGenie-Bert</h1>
-    <p>Graphic Designer for over 8 years.</p>
-  </header>
-
-  <div class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Adobe Photoshop Pro</li>
-      <li>Shopify Support Specialist</li>
-      <li>Admin Ninja</li>
-    </ul>
-  </div>
-
-  <footer>
-    <p>© 2025 VA-DesignGenie-Bert | Portfolio</p>
-  </footer>
-
-</body>
-</html>
+## 🚀 Built With
+- GitHub Pages
+- HTML5 + CSS3 (with animation)
