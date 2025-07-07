@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – VA-DesignGenie-Bert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #007bff;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VA-DesignGenie-Bert</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Why VA-DesignGenie?</h2>
+    <p>
+      VA-DesignGenie stands for <strong>Virtual Assistant + Design + Genie</strong>, and each part of the name reflects the essence of what I offer:
+    </p>
+    <p>
+      <strong>VA</strong> stands for Virtual Assistant, reflecting my goal to support and simplify your creative work.
+    </p>
+    <p>
+      <strong>Design</strong> is at the heart of what I do—creating visuals that are clean, modern, and ready to use.
+    </p>
+    <p>
+      <strong>Genie</strong> represents the magic of fast, customized results—like having your creative wishes granted.
+    </p>
+    <p>
+      It’s all about making design easy, efficient, and a little bit magical.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 VA-DesignGenie-Bert. All rights reserved.
+  </footer>
+
+</body>
+</html>
